@@ -4,12 +4,12 @@
 ##
 
 builddir=.
-top_srcdir=/usr/share/apache2
-top_builddir=/usr/share/apache2
-include /usr/share/apache2/build/special.mk
+#top_srcdir=/usr/share/apache2
+#top_builddir=/usr/share/apache2
+#include /usr/share/apache2/build/special.mk
+include distro_support.mk
 
 #   the used tools
-APXS=apxs
 APACHECTL=apachectl
 
 #   additional defines, includes and libraries
